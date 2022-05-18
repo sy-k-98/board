@@ -11,6 +11,7 @@ import javax.persistence.*;
 @Getter
 @ToString(exclude = "writer")
 public class Board extends BaseEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long bno;

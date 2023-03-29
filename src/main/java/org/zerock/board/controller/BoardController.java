@@ -14,7 +14,7 @@ import org.zerock.board.dto.PageRequestDTO;
 import org.zerock.board.service.BoardService;
 
 @Controller
-@RequestMapping("/board/")
+@RequestMapping("/board")
 @Log4j2
 @RequiredArgsConstructor
 public class BoardController {
